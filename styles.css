@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+:root{
+    
+--Strong-Cyan: hsl(171, 66%, 44%);
+--Light-Blue: hsl(233, 100%, 69%);
+--Dark-Grayish-Blue: hsl(210, 10%, 33%);
+--Grayish-Blue: hsl(201, 11%, 66%);
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+    
+}
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 16px;
+}
+.bg-img{
+     background-image: url(/images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.logo{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+   
+}
+h1{
+    font-size: 2.25rem;
+    font-weight: 600;
+    padding: 2px;
+}
+h3{
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+.sub-text{
+    font-size: 1rem;
+    width: 45%;
+    margin-left: 27%;
+    padding-top: 10px;
+    padding-bottom: 20px;  
+}
+.para-text{
+color: var(--Grayish-Blue);
+font-weight:400;
+padding-bottom: 15px;
+
+}
+button{
+    margin: 10px;
+  padding:10px 15px ;
+  border: none;
+  border-top-left-radius: 30px;
+  border-end-start-radius: 30px;
+  border-end-end-radius: 30px;
+  border-top-right-radius: 30px;
+  color: white;
+}
+button:hover{
+  cursor: pointer;
+  opacity: 0.7;
+  box-shadow: 3px 5px var(--Dark-Grayish-Blue);
+}
+.button-ios{
+    
+    background-color: var(--Strong-Cyan);
+      box-shadow: 3px 3px rgb(54, 134, 122);
+
+}
+.button-mac{
+    background-color:var(--Light-Blue);
+    box-shadow: 3px 3px rgb(83, 98, 204);
+}
+h2{
+    font-weight: 600;
+    font-size: 1.8rem;
+    padding:130px 0 12px;
+}
+.keep-track-para{
+    padding:0 27% 0;
+}
+.img-computer{
+    width: 100%;
+}
+.computer-part{
+    padding: 50px 0;
+}
+
+.computer-part-content{
+    padding: 50px 80px 0 ;
+}
+
+.access-para{
+    padding: 10px 30%;
+}
+.img-access{
+    width: 60%;
+}
+
+.supercharge-tools{
+    padding: 0 10px;
+}
+
+.icons{
+    margin: 20px 80px;
+    
+    
+}
+ .btn-download{
+     margin: 5% 3% 5% 0;
+ }
+
+.downloads{
+    padding: 20px;
+}
