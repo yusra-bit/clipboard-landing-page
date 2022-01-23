@@ -20,6 +20,7 @@ body{
     font-family: 'Bai Jamjuree', sans-serif;
     font-size: 16px;
 }
+
 .bg-img{
      background-image: url(/images/bg-header-desktop.png);
     background-repeat: no-repeat;
@@ -100,14 +101,14 @@ h2{
 }
 
 .access-para{
-    padding: 10px 30%;
+    padding: 10px 25%;
 }
 .img-access{
     width: 60%;
 }
 
 .supercharge-tools{
-    padding: 0 10px;
+    padding: 0 20px;
 }
 
 .icons{
@@ -121,4 +122,58 @@ h2{
 
 .downloads{
     padding: 20px;
+}
+
+#footer{
+    position: relative;
+   padding: 30px;
+    top: 80px;
+    color: var(--Dark-Grayish-Blue);
+    background-color: var(--Grayish-Blue);
+}
+#footer p:hover{
+    cursor: pointer;
+    color: var(--Strong-Cyan);
+}
+.img-footer{
+    width: 70px;
+    padding-bottom: 20px;
+}
+
+
+.ic{
+    
+    margin: 7px;
+}
+
+.ic:hover{
+    cursor: pointer;
+    color: var(--Strong-Cyan);
+}
+
+@media (max-width:500px) {
+   
+    .sub-text{
+        margin-left: 5%;
+        width: 90%;
+    }
+    .keep-track-para{
+        padding: 0 15px;
+    }
+    .access-para{
+        padding: 0 7%;
+    }
+
+    .bg-img{
+        background-image: url("/images/bg-header-mobile.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .button{
+        display: flex;
+        flex-direction: column;
+        padding: 0 60px;
+
+    }
 }
